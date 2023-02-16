@@ -23,7 +23,7 @@
 }
 @keyframes logo{
     from {background-color: rgb(1, 49, 51);}
-    50% {background-color: rgb(5, 164, 166);}
+    50% {background-color: rgb(4, 160, 165);}
     to{background-color: rgb(1, 49, 51);}
 }
   
@@ -35,13 +35,14 @@
     position: absolute;
     top: 12%;
     left: 6%;
+    background-blend-mode: lighten;
     animation-name: logo2;
     animation-duration: 4s;
     animation-iteration-count:infinite;
 }
 @keyframes logo2{
     from {background-color: rgba(204, 204, 204, 0.7);}
-    50% {background-color: rgba(204, 204, 204, 0.5);}
+    50% {background-color: rgba(204, 204, 204, 0.3);}
     to{background-color: rgba(204, 204, 204, 0.7);}
 }
 
@@ -84,9 +85,9 @@
 
 }
 @keyframes text{
-    from {background-color: rgb(1, 49, 51);}
-    50% {background-color: rgb(5, 164, 166);}
-    to{background-color: rgb(1, 49, 51);}
+    from {background-color: rgba(1, 49, 51,0.7);}
+    50% {background-color: rgba(1, 161, 167, 0.7);}
+    to{background-color: rgba(1, 49, 51,0.7);}
 }
 .header_image img{
     width: 100%;
